@@ -1,5 +1,8 @@
 ### **The Two-Step Strategy**
 
+### Dataset
+- [Strawberries](https://www.kaggle.com/datasets/trainingdatapro/ripe-strawberries-detection)
+
 1.  **Baseline Model (The Quick Test): OpenCV Template Matching.** This method is simple and requires no training. It works by sliding a small image of your item (the "template") across a larger image and finding areas of high similarity. It's fast but brittle—it fails if the item changes in scale, rotation, or lighting. This is our "control group."
 
 2.  **Advanced Model (The Production Solution): Fine-tuning YOLO.** This is the professional approach. We will take a powerful, pre-trained YOLO model (which already knows what general objects look like) and teach it to become an expert at finding *your specific item*. This method is robust to variations and significantly more accurate.
@@ -183,6 +186,14 @@ Here is your concise action plan:
     *   Use a tool like Roboflow to draw bounding boxes around every item in every image.
     *   Organize files into the `images/train`, `images/val`, `labels/train`, `labels/val` folder structure.
     *   Create the `data.yaml` file to define paths and class names.
+
+## Dataset:
+Scale Variation: Images where the item appears both large (close to the camera) and small (far away).
+Rotation Variation: Images where the item is tilted at various angles.
+Lighting Variation: Images taken in bright light, dim light, and with shadows falling across the item.
+Occlusion: Images where items are partially hidden behind other objects or each other.
+Background Variation: Images of the item on different surfaces and in different environments.
+Multiple Instances: Images containing many items, some clustered together.
 
 3.  **Fine-Tuning (YOLO):**
     *   Install `ultralytics`.
