@@ -28,6 +28,13 @@ Detect and count ripe strawberries in images using three approaches:
    - Open notebook_demo.ipynb in VS Code or Jupyter.
    - Run all cells to see the full pipeline: data prep, baseline, color segmentation, YOLO training, and evaluation.
 
+5. **Run the Streamlit App**
+   - Launch the interactive web UI for strawberry detection:
+     ```sh
+     streamlit run streamlit_ui.py
+     ```
+   - Upload an image and select the model (pretrained or finetuned YOLO) to detect and count strawberries with bounding boxes.
+
 ---
 
 ## Project Structure
