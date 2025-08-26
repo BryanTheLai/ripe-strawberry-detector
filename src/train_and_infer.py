@@ -7,8 +7,11 @@ Provides functions to train YOLO models and run inference for strawberry detecti
 from ultralytics import YOLO
 import os
 import logging
+import random
+import numpy as np
+import torch
 from src.baseline import create_template, run_baseline
-from src.yolo_utils import split_and_prepare
+from src.yolo_utils import split_and_prepare, parse_annotations
 from typing import Union
 
 # Configure logging
@@ -43,6 +46,13 @@ def train_model(data_yaml: str,
                      project='output',
                      name='train',
                      exist_ok=True)
+    try:
+        val_res = yolo_model.val(data=data_yaml, imgsz=imgsz, device=device, project='output', name='val', exist_ok=True)
+        metrics = getattr(val_res, 'results_dict', None) or {}
+        if metrics:
+            logging.info(f"Validation metrics: {metrics}")
+    except Exception as e:
+        logging.warning(f"Validation step failed: {e}")
     weights_path = os.path.join('output', 'train', 'weights', 'best.pt')
     logging.info(f"Training complete. Best weights at: {weights_path}")
     return weights_path
@@ -50,7 +60,8 @@ def train_model(data_yaml: str,
 def run_inference(model_path: str,
                   images_dir: str,
                   output_dir: str,
-                  conf: float = 0.25) -> int:
+                  conf: float = 0.25,
+                  device: Union[str, int] = 0) -> int:
     """Run inference using a YOLO model and count strawberry detections.
 
     Args:
@@ -71,7 +82,8 @@ def run_inference(model_path: str,
                               save=True,
                               project=output_dir,
                               name='predictions',
-                              exist_ok=True)
+                              exist_ok=True,
+                              device=device)
     # Determine 'strawberry' class ID
     straw_id = next((cid for cid, name in model.names.items() if name.lower() == 'strawberry'), None)
     strawberry_count = 0
@@ -93,7 +105,11 @@ def main():
     logging.info('Creating template...')
     create_template(xml_path, images_dir, template_path)
     logging.info('Running OpenCV baseline...')
-    run_baseline(os.path.join(images_dir, '0.png'), template_path, baseline_out)
+    try:
+        first_img_name = parse_annotations(xml_path)[0][0]
+        run_baseline(os.path.join(images_dir, first_img_name), template_path, baseline_out)
+    except Exception as e:
+        logging.warning(f"Baseline run skipped due to error: {e}")
 
     # Prepare YOLO dataset
     yolo_dataset_dir = os.path.join(cwd, 'strawberry_dataset')
@@ -102,6 +118,14 @@ def main():
 
     # Train YOLO model
     data_yaml = os.path.join(yolo_dataset_dir, 'data.yaml')
+    try:
+        torch.manual_seed(42)
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(42)
+    except Exception:
+        pass
+    random.seed(42)
+    np.random.seed(42)
     logging.info('Training YOLOv11 model...')
     weights_path = train_model(data_yaml, device=0)
 
@@ -109,7 +133,7 @@ def main():
     val_dir = os.path.join(yolo_dataset_dir, 'images', 'val')
     yolo_out = os.path.join(cwd, 'output', 'yolo_results')
     logging.info('Running YOLO inference on validation images...')
-    run_inference(weights_path, val_dir, yolo_out)
+    run_inference(weights_path, val_dir, yolo_out, device=0)
 
 if __name__ == '__main__':
     main()

@@ -61,23 +61,26 @@ def create_template(xml_path: str, images_dir: str, output_path: str) -> None:
     tree = ET.parse(xml_path)
     root = tree.getroot()
     for image in root.findall('image'):
-        if image.get('id') == '0':
-            box = image.find('box')
-            if box is None:
-                logging.error("No bounding box found for image id 0.")
-                return
-            attrs = box.attrib
-            xtl, ytl = int(float(attrs['xtl'])), int(float(attrs['ytl']))
-            xbr, ybr = int(float(attrs['xbr'])), int(float(attrs['ybr']))
-            img_path = os.path.join(images_dir, '0.png')
-            img = cv2.imread(img_path)
-            if img is None:
-                logging.error(f"Failed to read image at {img_path}")
-                return
-            template = img[ytl:ybr, xtl:xbr]
-            cv2.imwrite(output_path, template)
-            logging.info(f"Template saved to {output_path}")
+        box = image.find('box')
+        if box is None:
+            continue
+        name_attr = image.get('name')
+        if not name_attr:
+            continue
+        img_filename = name_attr.split('/')[-1]
+        attrs = box.attrib
+        xtl, ytl = int(float(attrs['xtl'])), int(float(attrs['ytl']))
+        xbr, ybr = int(float(attrs['xbr'])), int(float(attrs['ybr']))
+        img_path = os.path.join(images_dir, img_filename)
+        img = cv2.imread(img_path)
+        if img is None:
+            logging.error(f"Failed to read image at {img_path}")
             return
+        template = img[ytl:ybr, xtl:xbr]
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        cv2.imwrite(output_path, template)
+        logging.info(f"Template saved to {output_path}")
+        return
 
 
 def create_templates(xml_path: str, images_dir: str, output_dir: str, image_id: str = '0') -> None:
@@ -95,7 +98,12 @@ def create_templates(xml_path: str, images_dir: str, output_dir: str, image_id: 
     root = tree.getroot()
     for image in root.findall('image'):
         if image.get('id') == image_id:
-            img_path = os.path.join(images_dir, f"{image_id}.png")
+            name_attr = image.get('name')
+            if not name_attr:
+                logging.error(f"Image with id {image_id} missing 'name' attribute")
+                return
+            img_filename = name_attr.split('/')[-1]
+            img_path = os.path.join(images_dir, img_filename)
             img = cv2.imread(img_path)
             if img is None:
                 logging.error(f"Failed to read image at {img_path}")
