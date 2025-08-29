@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <segments>
+        <segment>
+          <id>34243</id>
+          <start>0</start>
+          <stop>39</stop>
+          <url>https://cvat2.trainingdata.solutions/api/jobs/34243</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>TrainingData</username>
+        <email/>
+      </owner>
+      
+      <labels>
+        <label>
+          <name>strawberry</name>
+          <color>#3d3df5</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2023-09-01 08:41:10.115046+00:00</dumped>
+  </meta>
+  <image id="0" name="images/0.png" width="1200" height="800">
+    <box label="strawberry" source="manual" occluded="0" xtl="368.18" ytl="292.79" xbr="460.65" ybr="454.46" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="423.70" ytl="268.56" xbr="537.50" ybr="471.16" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="538.93" ytl="338.40" xbr="666.51" ybr="509.38" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="642.29" ytl="416.47" xbr="789.86" ybr="616.35" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="734.64" ytl="416.40" xbr="837.78" ybr="597.06" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="49.43" ytl="431.56" xbr="151.09" ybr="579.76" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="878.10" ytl="461.31" xbr="1021.49" ybr="631.76" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="220.59" ytl="419.56" xbr="327.76" ybr="558.57" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="images/1.png" width="1600" height="900">
+    <box label="strawberry" source="manual" occluded="1" xtl="413.29" ytl="450.98" xbr="439.44" ybr="494.24" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="680.39" ytl="566.41" xbr="742.46" ybr="657.09" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="733.75" ytl="498.06" xbr="786.91" ybr="558.86" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="906.52" ytl="345.56" xbr="991.24" ybr="460.52" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="446.62" ytl="454.05" xbr="483.54" ybr="511.27" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="460.28" ytl="346.31" xbr="510.58" ybr="419.44" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="463.24" ytl="421.75" xbr="508.00" ybr="484.74" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="874.95" ytl="376.13" xbr="935.09" ybr="456.53" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="668.81" ytl="319.76" xbr="728.22" ybr="413.45" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1192.98" ytl="379.39" xbr="1274.37" ybr="504.97" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1225.62" ytl="595.93" xbr="1294.59" ybr="705.17" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1285.50" ytl="609.73" xbr="1362.05" ybr="740.10" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1238.78" ytl="648.56" xbr="1339.65" ybr="804.85" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1500.20" ytl="663.27" xbr="1600.00" ybr="857.83" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="775.68" ytl="517.96" xbr="835.44" ybr="597.79" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="622.81" ytl="495.26" xbr="663.19" ybr="575.24" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="641.17" ytl="495.35" xbr="692.62" ybr="571.72" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="325.95" ytl="626.19" xbr="359.59" ybr="674.26" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="787.88" ytl="589.00" xbr="857.50" ybr="719.63" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="722.09" ytl="676.77" xbr="771.26" ybr="754.52" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="572.92" ytl="647.70" xbr="622.99" ybr="732.60" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="814.69" ytl="454.00" xbr="870.91" ybr="531.39" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="379.20" ytl="615.43" xbr="412.27" ybr="678.87" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="349.59" ytl="580.05" xbr="385.55" ybr="634.27" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="images/10.png" width="920" height="425">
+    <box label="strawberry" source="manual" occluded="1" xtl="271.21" ytl="313.09" xbr="307.17" ybr="375.91" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="307.61" ytl="310.50" xbr="352.00" ybr="371.73" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="374.01" ytl="302.17" xbr="422.46" ybr="378.63" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="403.80" ytl="228.22" xbr="480.60" ybr="337.72" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="421.20" ytl="312.24" xbr="475.96" ybr="387.76" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="580.10" ytl="134.69" xbr="642.18" ybr="223.05" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="638.28" ytl="179.60" xbr="712.59" ybr="296.05" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="638.73" ytl="276.11" xbr="738.87" ybr="386.22" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="67.29" ytl="341.53" xbr="97.66" ybr="390.47" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="90.28" ytl="292.10" xbr="119.56" ybr="335.80" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="images/11.png" width="640" height="480">
+    <box label="strawberry" source="manual" occluded="0" xtl="563.99" ytl="313.31" xbr="637.78" ybr="420.48" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="75.24" ytl="324.82" xbr="136.18" ybr="420.66" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="111.07" ytl="281.65" xbr="186.39" ybr="400.14" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="77.19" ytl="106.28" xbr="146.34" ybr="210.13" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="219.98" ytl="165.17" xbr="288.26" ybr="261.32" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="268.57" ytl="272.83" xbr="334.10" ybr="371.73" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="311.44" ytl="301.31" xbr="383.70" ybr="406.64" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="398.44" ytl="119.29" xbr="489.28" ybr="255.29" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="419.89" ytl="219.18" xbr="517.77" ybr="351.01" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="4.42" ytl="320.72" xbr="76.99" ybr="444.11" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="510.25" ytl="353.17" xbr="589.90" ybr="462.49" z_order="0">
+    </box>
+  </image>
+  <image id="12" name="images/12.png" width="1920" height="1080">
+    <box label="strawberry" source="manual" occluded="0" xtl="577.77" ytl="723.82" xbr="718.30" ybr="942.90" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="700.33" ytl="683.31" xbr="836.81" ybr="884.48" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="627.37" ytl="590.99" xbr="767.91" ybr="790.10" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="740.35" ytl="367.78" xbr="919.48" ybr="562.75" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1411.49" ytl="610.42" xbr="1510.52" ybr="715.67" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1378.48" ytl="637.21" xbr="1463.64" ybr="739.59" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="732.48" ytl="906.60" xbr="849.70" ybr="1056.14" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1142.38" ytl="193.50" xbr="1247.23" ybr="331.44" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1478.95" ytl="562.55" xbr="1577.12" ybr="680.25" z_order="0">
+    </box>
+  </image>
+  <image id="13" name="images/13.png" width="807" height="607">
+    <box label="strawberry" source="manual" occluded="1" xtl="63.97" ytl="309.85" xbr="145.67" ybr="401.23" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="268.54" ytl="333.08" xbr="338.56" ybr="420.20" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="288.94" ytl="366.31" xbr="343.79" ybr="432.14" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="407.29" ytl="232.73" xbr="481.51" ybr="325.98" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="509.68" ytl="270.38" xbr="589.70" ybr="361.70" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="515.61" ytl="391.45" xbr="609.19" ybr="505.68" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="602.41" ytl="486.64" xbr="675.98" ybr="578.60" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="703.73" ytl="461.79" xbr="789.90" ybr="571.50" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="3.63" ytl="284.62" xbr="71.12" ybr="355.88" z_order="0">
+    </box>
+  </image>
+  <image id="14" name="images/14.png" width="2592" height="1936">
+    <box label="strawberry" source="manual" occluded="1" xtl="1728.84" ytl="1126.72" xbr="1852.72" ybr="1302.40" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1868.74" ytl="1204.38" xbr="2003.93" ybr="1408.07" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="2041.76" ytl="1181.62" xbr="2119.52" ybr="1272.61" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1973.30" ytl="1127.85" xbr="2080.83" ybr="1269.16" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="2002.47" ytl="1145.76" xbr="2098.42" ybr="1255.36" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="132.07" ytl="440.32" xbr="496.64" ybr="1156.11" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="456.92" ytl="691.81" xbr="796.29" ybr="1103.80" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="591.78" ytl="571.77" xbr="867.43" ybr="971.91" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1213.53" ytl="1102.04" xbr="1452.80" ybr="1424.50" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1387.62" ytl="1225.53" xbr="1595.17" ybr="1523.13" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1522.70" ytl="1161.47" xbr="1719.95" ybr="1443.63" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1497.83" ytl="931.63" xbr="1717.38" ybr="1166.62" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="images/15.png" width="1294" height="970">
+    <box label="strawberry" source="manual" occluded="0" xtl="1154.50" ytl="597.08" xbr="1228.20" ybr="685.71" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="163.78" ytl="583.92" xbr="356.83" ybr="790.59" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="382.82" ytl="592.21" xbr="524.52" ybr="746.90" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="531.88" ytl="636.14" xbr="666.22" ybr="812.49" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="608.67" ytl="537.76" xbr="743.56" ybr="712.25" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="954.54" ytl="529.57" xbr="1043.06" ybr="652.04" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1169.92" ytl="537.91" xbr="1233.80" ybr="605.94" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="images/16.png" width="2368" height="1624">
+    <box label="strawberry" source="manual" occluded="1" xtl="331.85" ytl="1119.35" xbr="676.45" ybr="1526.60" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="0.00" ytl="376.15" xbr="307.53" ybr="737.16" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="261.44" ytl="522.20" xbr="601.56" ybr="898.12" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="771.92" ytl="843.37" xbr="1168.73" ybr="1292.40" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="921.10" ytl="477.89" xbr="1356.69" ybr="962.72" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1037.42" ytl="96.78" xbr="1344.06" ybr="415.85" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1814.38" ytl="945.22" xbr="2198.72" ybr="1325.41" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1545.20" ytl="1100.03" xbr="1931.82" ybr="1619.67" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="438.81" ytl="628.26" xbr="847.55" ybr="1066.80" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="images/17.png" width="1000" height="810">
+    <box label="strawberry" source="manual" occluded="0" xtl="68.55" ytl="507.75" xbr="205.50" ybr="654.49" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="249.40" ytl="560.97" xbr="367.20" ybr="710.81" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="481.38" ytl="409.40" xbr="555.10" ybr="498.25" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="658.73" ytl="482.53" xbr="780.67" ybr="632.89" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="809.03" ytl="495.19" xbr="904.11" ybr="630.57" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="838.49" ytl="583.03" xbr="943.89" ybr="722.02" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="46.96" ytl="428.28" xbr="170.40" ybr="559.50" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="images/18.png" width="2048" height="1536">
+    <box label="strawberry" source="manual" occluded="0" xtl="1390.21" ytl="547.16" xbr="1580.73" ybr="816.61" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="0.00" ytl="389.14" xbr="161.82" ybr="704.64" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="412.07" ytl="724.53" xbr="656.00" ybr="1049.83" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="609.01" ytl="751.97" xbr="844.17" ybr="1064.53" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="696.18" ytl="768.98" xbr="941.13" ybr="1101.71" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1468.12" ytl="690.46" xbr="1661.36" ybr="929.97" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1617.82" ytl="526.48" xbr="1799.49" ybr="742.17" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1650.48" ytl="346.16" xbr="1805.61" ybr="525.12" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1582.23" ytl="0.00" xbr="1765.13" ybr="163.13" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="images/19.png" width="960" height="720">
+    <box label="strawberry" source="manual" occluded="0" xtl="90.83" ytl="317.92" xbr="191.00" ybr="420.30" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="151.21" ytl="390.74" xbr="239.59" ybr="497.91" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="200.64" ytl="470.48" xbr="287.75" ybr="588.49" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="287.72" ytl="476.54" xbr="369.72" ybr="583.38" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="342.61" ytl="509.39" xbr="407.36" ybr="594.55" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="116.15" ytl="264.66" xbr="168.59" ybr="331.64" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="431.91" ytl="424.55" xbr="498.89" ybr="510.03" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="508.14" ytl="377.98" xbr="566.51" ybr="447.83" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="544.82" ytl="364.27" xbr="609.89" ybr="428.37" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="557.26" ytl="483.87" xbr="611.16" ybr="567.12" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="812.16" ytl="495.36" xbr="849.90" ybr="540.55" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="186.89" ytl="295.06" xbr="254.66" ybr="362.31" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="images/2.png" width="1200" height="900">
+    <box label="strawberry" source="manual" occluded="1" xtl="875.25" ytl="444.03" xbr="979.31" ybr="578.78" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="517.67" ytl="562.22" xbr="617.05" ybr="736.75" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="0.00" ytl="490.28" xbr="124.57" ybr="714.19" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="156.67" ytl="438.27" xbr="274.36" ybr="612.80" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="133.70" ytl="640.36" xbr="266.90" ybr="775.27" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="330.28" ytl="544.85" xbr="447.12" ybr="714.30" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="431.55" ytl="592.65" xbr="529.78" ybr="725.84" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1034.72" ytl="330.00" xbr="1111.27" ybr="423.69" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="543.56" ytl="496.20" xbr="633.12" ybr="634.56" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="580.88" ytl="487.58" xbr="681.92" ybr="633.41" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="638.47" ytl="466.23" xbr="718.20" ybr="570.69" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="740.09" ytl="468.35" xbr="844.15" ybr="573.20" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="829.40" ytl="478.31" xbr="920.30" ybr="618.65" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="890.00" ytl="345.55" xbr="962.96" ybr="438.05" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1097.32" ytl="329.20" xbr="1167.49" ybr="426.48" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="952.99" ytl="466.35" xbr="1024.36" ybr="562.04" z_order="0">
+    </box>
+  </image>
+  <image id="20" name="images/20.png" width="1680" height="945">
+    <box label="strawberry" source="manual" occluded="1" xtl="873.33" ytl="697.67" xbr="1028.25" ybr="908.05" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1082.63" ytl="500.31" xbr="1279.39" ybr="695.62" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="158.10" ytl="439.40" xbr="364.30" ybr="704.14" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="740.81" ytl="627.78" xbr="909.60" ybr="863.88" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="743.72" ytl="724.80" xbr="895.63" ybr="902.02" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="images/21.png" width="1600" height="1200">
+    <box label="strawberry" source="manual" occluded="0" xtl="190.11" ytl="143.82" xbr="500.96" ybr="510.88" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="567.41" ytl="586.54" xbr="833.79" ybr="926.42" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="707.87" ytl="817.26" xbr="911.57" ybr="1097.42" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="793.07" ytl="623.32" xbr="984.87" ybr="883.46" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="847.30" ytl="735.42" xbr="1034.69" ybr="975.72" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="889.08" ytl="500.63" xbr="1105.24" ybr="759.67" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="808.72" ytl="254.82" xbr="1071.07" ybr="629.60" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="892.28" ytl="0.00" xbr="1261.54" ybr="504.27" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="401.30" ytl="509.23" xbr="632.47" ybr="816.19" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="images/22.png" width="1200" height="675">
+    <box label="strawberry" source="manual" occluded="0" xtl="413.97" ytl="428.33" xbr="521.96" ybr="565.26" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="690.93" ytl="379.62" xbr="817.53" ybr="501.05" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="844.01" ytl="379.92" xbr="1017.10" ybr="583.59" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="426.21" ytl="319.26" xbr="534.72" ybr="440.68" z_order="0">
+    </box>
+  </image>
+  <image id="23" name="images/23.png" width="1000" height="667">
+    <box label="strawberry" source="manual" occluded="1" xtl="540.46" ytl="247.68" xbr="595.12" ybr="313.86" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="143.00" ytl="35.65" xbr="198.89" ybr="105.33" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="158.27" ytl="21.36" xbr="208.50" ybr="68.64" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="308.98" ytl="19.07" xbr="366.84" ybr="81.62" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="190.28" ytl="227.95" xbr="249.12" ybr="303.05" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="88.61" ytl="233.55" xbr="138.06" ybr="299.83" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="169.64" ytl="318.26" xbr="234.65" ybr="410.75" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="321.22" ytl="337.17" xbr="410.22" ybr="457.73" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="289.84" ytl="408.02" xbr="374.23" ybr="503.75" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="396.21" ytl="394.90" xbr="485.56" ybr="497.37" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="417.80" ytl="422.20" xbr="500.81" ybr="509.78" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="478.82" ytl="367.24" xbr="569.59" ybr="482.48" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="479.18" ytl="434.96" xbr="553.64" ybr="527.15" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="426.70" ytl="471.20" xbr="505.00" ybr="551.57" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="515.05" ytl="466.18" xbr="583.60" ybr="564.87" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="358.69" ytl="267.10" xbr="425.67" ybr="346.38" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="414.10" ytl="264.19" xbr="460.39" ybr="322.06" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="410.40" ytl="283.40" xbr="475.41" ybr="354.07" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="414.88" ytl="187.67" xbr="472.50" ybr="263.60" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="523.62" ytl="223.15" xbr="577.39" ybr="298.50" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="547.55" ytl="263.93" xbr="604.00" ybr="334.25" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="613.44" ytl="352.27" xbr="686.10" ybr="458.94" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="610.78" ytl="275.45" xbr="673.42" ybr="345.48" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="607.53" ytl="215.17" xbr="672.54" ybr="300.86" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="668.69" ytl="268.36" xbr="723.95" ybr="329.52" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="641.81" ytl="124.17" xbr="710.65" ybr="185.63" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="720.70" ytl="188.58" xbr="782.75" ybr="267.18" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="756.15" ytl="262.75" xbr="824.70" ybr="344.59" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="778.61" ytl="193.01" xbr="834.16" ybr="271.31" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="816.73" ytl="180.90" xbr="869.02" ybr="239.99" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="835.05" ytl="127.42" xbr="885.57" ybr="187.99" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="883.21" ytl="63.60" xbr="943.48" ybr="134.51" z_order="0">
+    </box>
+  </image>
+  <image id="24" name="images/24.png" width="1024" height="683">
+    <box label="strawberry" source="manual" occluded="0" xtl="205.41" ytl="497.14" xbr="298.99" ybr="649.28" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="781.56" ytl="430.22" xbr="892.40" ybr="626.80" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="345.42" ytl="201.12" xbr="478.43" ybr="446.43" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="149.55" ytl="239.14" xbr="322.71" ybr="479.43" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="0.00" ytl="75.01" xbr="118.93" ybr="266.37" z_order="0">
+    </box>
+  </image>
+  <image id="25" name="images/25.png" width="1080" height="1080">
+    <box label="strawberry" source="manual" occluded="1" xtl="498.68" ytl="627.65" xbr="704.53" ybr="936.01" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="142.36" ytl="375.50" xbr="364.75" ybr="696.26" z_order="0">
+    </box>
+  </image>
+  <image id="26" name="images/26.png" width="997" height="630">
+    <box label="strawberry" source="manual" occluded="1" xtl="334.24" ytl="419.32" xbr="381.91" ybr="490.06" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="437.71" ytl="332.45" xbr="521.10" ybr="452.68" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="457.80" ytl="425.22" xbr="514.10" ybr="507.60" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="630.51" ytl="231.31" xbr="696.15" ybr="328.43" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="699.87" ytl="279.33" xbr="772.87" ybr="406.26" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="690.49" ytl="383.49" xbr="800.33" ybr="505.39" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="70.90" ytl="456.50" xbr="103.61" ybr="509.24" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="294.89" ytl="426.68" xbr="333.27" ybr="490.25" z_order="0">
+    </box>
+  </image>
+  <image id="27" name="images/27.png" width="900" height="1200">
+    <box label="strawberry" source="manual" occluded="0" xtl="423.91" ytl="645.28" xbr="619.70" ybr="812.16" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="516.30" ytl="716.75" xbr="710.11" ybr="876.23" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="486.22" ytl="837.80" xbr="644.21" ybr="974.02" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="565.55" ytl="880.60" xbr="726.54" ybr="1012.78" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="330.06" ytl="244.32" xbr="598.74" ybr="480.09" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="163.95" ytl="136.39" xbr="403.70" ybr="366.03" z_order="0">
+    </box>
+  </image>
+  <image id="28" name="images/28.png" width="3000" height="1995">
+    <box label="strawberry" source="manual" occluded="0" xtl="2262.73" ytl="1167.02" xbr="2658.52" ybr="1584.43" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="2644.52" ytl="1173.38" xbr="3000.00" ybr="1547.53" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="214.80" ytl="487.85" xbr="627.12" ybr="913.00" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1922.93" ytl="917.22" xbr="2344.60" ybr="1448.66" z_order="0">
+    </box>
+  </image>
+  <image id="29" name="images/29.png" width="1000" height="709">
+    <box label="strawberry" source="manual" occluded="1" xtl="597.96" ytl="263.15" xbr="655.12" ybr="352.67" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="25.91" ytl="227.89" xbr="118.25" ybr="322.87" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="60.93" ytl="254.60" xbr="132.57" ybr="342.46" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="0.00" ytl="393.63" xbr="60.81" ybr="478.69" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="22.31" ytl="408.28" xbr="79.92" ybr="472.15" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="38.01" ytl="378.97" xbr="103.47" ybr="442.83" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="52.41" ytl="412.99" xbr="137.50" ybr="503.03" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="55.31" ytl="456.18" xbr="117.87" ybr="533.65" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="125.46" ytl="399.12" xbr="178.85" ybr="462.46" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="162.10" ytl="403.31" xbr="219.16" ybr="473.19" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="179.35" ytl="327.67" xbr="235.38" ybr="413.52" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="197.67" ytl="392.32" xbr="255.28" ybr="470.84" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="148.52" ytl="462.28" xbr="233.63" ybr="595.13" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="132.12" ytl="565.01" xbr="198.70" ybr="658.29" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="117.99" ytl="595.17" xbr="213.78" ybr="697.87" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="325.66" ytl="311.54" xbr="422.80" ybr="417.38" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="364.89" ytl="352.67" xbr="448.21" ybr="454.97" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="307.41" ytl="407.25" xbr="405.71" ybr="509.96" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="409.20" ytl="413.28" xbr="502.80" ybr="524.78" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="394.09" ytl="424.84" xbr="463.82" ybr="533.51" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="512.19" ytl="416.36" xbr="596.36" ybr="549.22" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="523.11" ytl="245.15" xbr="604.50" ybr="331.52" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="571.20" ytl="203.26" xbr="643.44" ybr="290.26" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="610.46" ytl="252.88" xbr="690.24" ybr="344.28" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="680.81" ytl="202.63" xbr="754.62" ybr="284.92" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="704.06" ytl="226.50" xbr="765.30" ybr="295.60" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="735.70" ytl="285.23" xbr="810.53" ybr="378.83" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="786.97" ytl="280.52" xbr="846.65" ybr="339.88" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="803.62" ytl="321.67" xbr="881.51" ybr="401.13" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="803.62" ytl="360.93" xbr="855.76" ybr="431.91" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="698.40" ytl="436.84" xbr="759.96" ybr="493.69" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="737.98" ytl="438.09" xbr="783.52" ybr="515.67" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="654.43" ytl="487.41" xbr="755.56" ybr="602.99" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="604.81" ytl="538.91" xbr="680.50" ybr="605.18" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="634.02" ytl="542.37" xbr="716.93" ybr="628.11" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="703.74" ytl="540.48" xbr="783.20" ybr="614.29" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="872.21" ytl="449.52" xbr="945.28" ybr="556.61" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="870.27" ytl="296.76" xbr="925.54" ybr="360.83" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="911.12" ytl="297.96" xbr="970.01" ybr="378.32" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="946.19" ytl="293.25" xbr="1000.00" ybr="365.49" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="926.43" ytl="229.70" xbr="983.49" ybr="312.67" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="896.41" ytl="143.25" xbr="989.59" ybr="242.97" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="884.90" ytl="178.06" xbr="957.13" ybr="258.42" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="images/3.png" width="1080" height="652">
+    <box label="strawberry" source="manual" occluded="0" xtl="585.05" ytl="289.58" xbr="632.46" ybr="360.10" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="86.80" ytl="400.06" xbr="135.95" ybr="468.06" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="625.00" ytl="386.57" xbr="675.54" ybr="441.45" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="648.35" ytl="383.93" xbr="689.99" ybr="444.82" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="694.85" ytl="309.95" xbr="739.78" ybr="368.92" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="274.44" ytl="475.02" xbr="331.01" ybr="548.03" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="202.24" ytl="464.59" xbr="260.00" ybr="539.20" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="710.43" ytl="349.34" xbr="755.80" ybr="419.34" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="0.00" ytl="325.59" xbr="32.35" ybr="387.37" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="121.41" ytl="390.58" xbr="165.33" ybr="448.14" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="743.33" ytl="308.42" xbr="799.29" ybr="386.65" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="965.24" ytl="202.83" xbr="1032.39" ybr="292.61" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="824.58" ytl="590.73" xbr="858.14" ybr="625.41" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="457.45" ytl="567.42" xbr="495.96" ybr="621.98" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="435.45" ytl="214.50" xbr="488.02" ybr="286.13" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="264.75" ytl="412.84" xbr="310.88" ybr="472.18" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="525.16" ytl="262.04" xbr="582.35" ybr="348.98" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="499.65" ytl="286.88" xbr="547.06" ybr="377.62" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="386.97" ytl="372.12" xbr="430.89" ybr="437.91" z_order="0">
+    </box>
+  </image>
+  <image id="30" name="images/30.png" width="1024" height="678">
+    <box label="strawberry" source="manual" occluded="0" xtl="199.87" ytl="531.27" xbr="241.19" ybr="581.12" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="988.76" ytl="362.07" xbr="1024.00" ybr="455.92" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="967.86" ytl="297.52" xbr="1019.40" ybr="353.03" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="952.07" ytl="235.57" xbr="1014.78" ybr="318.46" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="924.54" ytl="548.41" xbr="1018.24" ybr="654.73" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="760.33" ytl="527.50" xbr="841.42" ybr="652.21" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="484.90" ytl="405.36" xbr="555.18" ybr="510.60" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="424.71" ytl="336.52" xbr="489.95" ybr="424.10" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="428.68" ytl="369.32" xbr="501.48" ybr="453.29" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="362.41" ytl="300.84" xbr="419.73" ybr="353.15" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="321.49" ytl="200.18" xbr="386.04" ybr="281.99" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="294.04" ytl="183.15" xbr="330.54" ybr="217.22" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="314.73" ytl="282.22" xbr="367.22" ybr="345.32" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="266.09" ytl="286.53" xbr="325.12" ybr="363.08" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="229.04" ytl="318.56" xbr="284.37" ybr="394.40" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="277.07" ytl="343.39" xbr="340.40" ybr="430.24" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="260.80" ytl="411.29" xbr="306.10" ybr="467.61" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="256.04" ytl="376.00" xbr="296.84" ybr="434.57" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="235.12" ytl="496.03" xbr="279.36" ybr="560.06" z_order="0">
+    </box>
+  </image>
+  <image id="31" name="images/31.png" width="960" height="1051">
+    <box label="strawberry" source="manual" occluded="0" xtl="310.73" ytl="594.26" xbr="401.29" ybr="669.43" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="335.79" ytl="641.68" xbr="412.34" ybr="720.62" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="181.60" ytl="765.32" xbr="325.74" ybr="912.82" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="345.86" ytl="813.93" xbr="487.21" ybr="954.72" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="300.04" ytl="840.75" xbr="413.46" ybr="958.07" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="384.41" ytl="742.98" xbr="519.61" ybr="877.62" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="496.70" ytl="813.37" xbr="620.17" ybr="986.57" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="627.33" ytl="682.08" xbr="748.00" ybr="807.78" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="220.88" ytl="567.64" xbr="268.84" ybr="626.10" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="0.00" ytl="555.80" xbr="46.80" ybr="604.03" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="images/32.png" width="1910" height="1000">
+    <box label="strawberry" source="manual" occluded="0" xtl="882.40" ytl="493.71" xbr="1051.76" ybr="745.76" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="519.84" ytl="508.95" xbr="621.15" ybr="645.05" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="574.28" ytl="550.87" xbr="669.05" ybr="680.98" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="652.12" ytl="593.33" xbr="789.91" ybr="807.27" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="778.42" ytl="637.97" xbr="918.93" ybr="823.06" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="921.44" ytl="744.93" xbr="1112.20" ybr="955.28" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="980.89" ytl="768.45" xbr="1111.54" ybr="963.77" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1076.92" ytl="822.02" xbr="1239.58" ybr="1000.00" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1442.77" ytl="536.31" xbr="1735.14" ybr="922.38" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1556.67" ytl="209.10" xbr="1910.00" ybr="691.08" z_order="0">
+    </box>
+  </image>
+  <image id="33" name="images/33.png" width="1024" height="768">
+    <box label="strawberry" source="manual" occluded="1" xtl="12.21" ytl="495.66" xbr="121.08" ybr="624.60" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="253.04" ytl="348.13" xbr="334.85" ybr="463.26" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="314.28" ytl="330.98" xbr="414.71" ybr="458.36" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="388.74" ytl="325.10" xbr="471.54" ybr="454.93" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="608.22" ytl="298.16" xbr="686.61" ybr="421.62" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="699.54" ytl="263.03" xbr="808.79" ybr="404.13" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="900.89" ytl="279.69" xbr="998.38" ybr="410.00" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="824.76" ytl="407.41" xbr="950.18" ybr="558.30" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="932.00" ytl="444.15" xbr="1024.00" ybr="591.61" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="64.27" ytl="319.43" xbr="143.88" ybr="424.21" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="58.21" ytl="461.43" xbr="162.66" ybr="601.94" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="189.55" ytl="240.50" xbr="311.53" ybr="382.57" z_order="0">
+    </box>
+  </image>
+  <image id="34" name="images/34.png" width="1600" height="1200">
+    <box label="strawberry" source="manual" occluded="0" xtl="247.90" ytl="820.63" xbr="348.85" ybr="957.07" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1481.13" ytl="619.96" xbr="1600.00" ybr="811.86" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="116.99" ytl="879.77" xbr="203.38" ybr="1023.30" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="908.57" ytl="881.59" xbr="1055.99" ybr="1047.44" z_order="0">
+    </box>
+  </image>
+  <image id="35" name="images/35.png" width="1000" height="750">
+    <box label="strawberry" source="manual" occluded="1" xtl="588.23" ytl="540.14" xbr="646.37" ybr="634.00" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="647.48" ytl="521.31" xbr="701.75" ybr="588.59" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="684.83" ytl="515.78" xbr="725.84" ybr="563.95" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="633.09" ytl="490.31" xbr="678.77" ybr="533.50" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="659.90" ytl="565.10" xbr="705.90" ybr="621.26" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="851.75" ytl="531.64" xbr="898.82" ybr="575.25" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="853.59" ytl="549.18" xbr="899.51" ybr="593.25" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="876.64" ytl="542.03" xbr="912.89" ybr="582.63" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="940.23" ytl="510.79" xbr="969.74" ybr="537.36" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="370.60" ytl="401.00" xbr="449.63" ybr="461.36" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="401.26" ytl="399.07" xbr="469.71" ybr="463.86" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="945.30" ytl="496.24" xbr="976.95" ybr="523.20" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="123.26" ytl="381.74" xbr="210.31" ybr="456.83" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="52.10" ytl="490.25" xbr="117.88" ybr="552.05" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="69.37" ytl="563.68" xbr="147.12" ybr="662.35" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="136.15" ytl="575.64" xbr="209.91" ybr="666.34" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="198.28" ytl="529.79" xbr="247.12" ybr="598.56" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="209.91" ytl="495.24" xbr="259.08" ybr="548.06" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="242.14" ytl="514.84" xbr="294.30" ybr="574.98" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="264.40" ytl="535.11" xbr="319.22" ybr="602.22" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="363.07" ytl="567.00" xbr="423.87" ybr="632.45" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="292.70" ytl="450.52" xbr="342.54" ybr="501.68" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="365.73" ytl="496.57" xbr="432.18" ybr="569.33" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="413.91" ytl="541.42" xbr="463.08" ybr="606.54" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="454.11" ytl="525.80" xbr="514.24" ybr="601.22" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="518.89" ytl="524.81" xbr="569.39" ybr="594.91" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="564.48" ytl="550.08" xbr="622.07" ybr="620.96" z_order="0">
+    </box>
+  </image>
+  <image id="36" name="images/36.png" width="550" height="413">
+    <box label="strawberry" source="manual" occluded="0" xtl="256.10" ytl="110.39" xbr="330.90" ybr="189.96" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="160.93" ytl="126.68" xbr="210.55" ybr="182.23" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="171.30" ytl="63.06" xbr="224.21" ybr="127.61" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="160.30" ytl="196.98" xbr="212.35" ybr="256.26" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="149.56" ytl="218.72" xbr="180.08" ybr="258.67" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="170.01" ytl="246.06" xbr="199.10" ybr="278.81" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="209.16" ytl="203.25" xbr="256.36" ybr="260.88" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="254.17" ytl="190.81" xbr="304.84" ybr="265.45" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="258.92" ytl="174.53" xbr="297.34" ybr="218.80" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="294.52" ytl="123.57" xbr="352.48" ybr="199.97" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="325.35" ytl="112.50" xbr="397.80" ybr="182.05" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="342.50" ytl="236.27" xbr="410.78" ybr="319.42" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="524.41" ytl="187.18" xbr="547.59" ybr="217.98" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="68.65" ytl="201.96" xbr="95.09" ybr="232.53" z_order="0">
+    </box>
+  </image>
+  <image id="37" name="images/37.png" width="600" height="600">
+    <box label="strawberry" source="manual" occluded="0" xtl="64.44" ytl="232.08" xbr="138.30" ybr="312.45" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="115.34" ytl="282.33" xbr="181.59" ybr="361.17" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="517.21" ytl="392.67" xbr="564.80" ybr="446.38" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="523.48" ytl="376.24" xbr="576.29" ybr="434.94" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="410.91" ytl="255.68" xbr="485.29" ybr="318.80" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="464.14" ytl="235.61" xbr="550.71" ybr="330.86" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="519.26" ytl="273.77" xbr="566.14" ybr="337.45" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="421.06" ytl="409.06" xbr="478.28" ybr="475.10" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="282.67" ytl="266.88" xbr="375.17" ybr="364.96" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="244.66" ytl="238.18" xbr="301.01" ybr="304.89" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="209.84" ytl="281.61" xbr="267.52" ybr="364.27" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="478.83" ytl="392.30" xbr="532.55" ybr="458.38" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="66.77" ytl="393.71" xbr="180.06" ybr="555.22" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="343.45" ytl="353.75" xbr="408.30" ybr="447.33" z_order="0">
+    </box>
+  </image>
+  <image id="38" name="images/38.png" width="1260" height="840">
+    <box label="strawberry" source="manual" occluded="0" xtl="551.47" ytl="374.65" xbr="745.71" ybr="512.18" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="361.03" ytl="330.14" xbr="513.22" ybr="432.47" z_order="0">
+    </box>
+  </image>
+  <image id="39" name="images/39.png" width="1542" height="854">
+    <box label="strawberry" source="manual" occluded="1" xtl="383.65" ytl="486.35" xbr="560.15" ybr="741.95" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="299.38" ytl="363.71" xbr="464.90" ybr="679.06" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="386.38" ytl="175.20" xbr="552.76" ybr="450.55" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="832.49" ytl="213.64" xbr="1001.37" ybr="496.92" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1051.68" ytl="360.73" xbr="1179.55" ybr="608.62" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="901.85" ytl="289.18" xbr="1070.51" ybr="544.92" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="508.57" ytl="398.75" xbr="692.92" ybr="658.93" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="images/4.png" width="733" height="733">
+    <box label="strawberry" source="manual" occluded="1" xtl="553.61" ytl="203.30" xbr="634.97" ybr="290.27" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="28.18" ytl="205.15" xbr="132.41" ybr="280.80" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="42.40" ytl="225.69" xbr="179.40" ybr="364.57" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="36.32" ytl="289.52" xbr="177.58" ybr="407.35" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="50.82" ytl="397.53" xbr="163.10" ybr="504.61" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="64.85" ytl="438.68" xbr="206.57" ybr="635.06" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="244.40" ytl="484.97" xbr="331.88" ybr="615.42" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="383.57" ytl="497.22" xbr="454.47" ybr="612.76" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="497.50" ytl="436.15" xbr="612.06" ybr="605.42" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="403.98" ytl="344.97" xbr="511.53" ybr="524.06" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="406.30" ytl="294.47" xbr="518.54" ybr="389.39" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="351.61" ytl="234.62" xbr="402.58" ybr="299.62" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="445.13" ytl="208.91" xbr="533.04" ybr="294.48" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="599.90" ytl="308.04" xbr="702.30" ybr="409.03" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="603.17" ytl="452.52" xbr="733.00" ybr="675.55" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="images/5.png" width="640" height="640">
+    <box label="strawberry" source="manual" occluded="0" xtl="321.40" ytl="416.76" xbr="437.72" ybr="549.78" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="290.41" ytl="414.72" xbr="370.36" ybr="513.04" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="456.01" ytl="438.80" xbr="593.19" ybr="607.84" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="217.36" ytl="265.57" xbr="295.61" ybr="368.99" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="72.69" ytl="402.53" xbr="106.95" ybr="451.91" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="7.46" ytl="394.69" xbr="37.70" ybr="430.36" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="354.47" ytl="339.50" xbr="454.80" ybr="443.80" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="images/6.png" width="1600" height="900">
+    <box label="strawberry" source="manual" occluded="1" xtl="1117.06" ytl="455.36" xbr="1356.15" ybr="707.34" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1318.45" ytl="425.69" xbr="1572.42" ybr="738.19" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1329.37" ytl="283.83" xbr="1588.29" ybr="569.54" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1180.60" ytl="125.10" xbr="1437.50" ybr="436.61" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="968.25" ytl="452.38" xbr="1150.13" ybr="694.61" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="750.79" ytl="474.60" xbr="874.30" ybr="629.74" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="834.49" ytl="419.50" xbr="948.70" ybr="533.56" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="938.66" ytl="610.45" xbr="1152.03" ybr="862.60" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="images/7.png" width="1000" height="1000">
+    <box label="strawberry" source="manual" occluded="0" xtl="188.95" ytl="639.95" xbr="394.36" ybr="875.33" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="554.15" ytl="609.52" xbr="740.42" ybr="839.17" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="486.21" ytl="324.19" xbr="637.40" ybr="493.87" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="401.95" ytl="397.87" xbr="550.58" ybr="563.08" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="649.45" ytl="378.73" xbr="828.70" ybr="582.86" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="810.20" ytl="512.69" xbr="965.85" ybr="644.73" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="images/8.png" width="2048" height="1152">
+    <box label="strawberry" source="manual" occluded="1" xtl="116.49" ytl="873.80" xbr="261.93" ybr="1040.68" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="743.93" ytl="755.83" xbr="821.33" ybr="841.31" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="722.83" ytl="813.67" xbr="800.66" ybr="919.99" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="789.18" ytl="788.16" xbr="871.25" ybr="883.41" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="826.60" ytl="818.77" xbr="909.53" ybr="922.11" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="597.72" ytl="593.13" xbr="744.69" ybr="699.78" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="872.20" ytl="693.80" xbr="947.48" ybr="769.10" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="983.95" ytl="760.41" xbr="1084.60" ybr="874.52" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="981.83" ytl="869.91" xbr="1072.91" ybr="969.49" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1053.06" ytl="827.38" xbr="1135.28" ybr="930.51" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1118.62" ytl="799.74" xbr="1210.76" ybr="924.49" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1219.62" ytl="808.96" xbr="1302.55" ybr="914.21" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1290.50" ytl="836.95" xbr="1377.33" ybr="954.26" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1328.42" ytl="828.45" xbr="1415.25" ybr="965.60" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1389.73" ytl="754.03" xbr="1463.80" ybr="819.59" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1411.35" ytl="797.97" xbr="1504.91" ybr="907.12" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1461.32" ytl="790.88" xbr="1533.97" ybr="864.95" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1432.78" ytl="878.08" xbr="1504.30" ybr="953.09" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1728.31" ytl="818.12" xbr="1796.83" ybr="881.62" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1733.01" ytl="840.39" xbr="1802.41" ybr="910.09" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1767.90" ytl="825.33" xbr="1821.61" ybr="890.60" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1850.68" ytl="754.29" xbr="1885.87" ybr="787.51" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1873.20" ytl="762.04" xbr="1924.39" ybr="803.38" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1862.86" ytl="785.66" xbr="1911.34" ybr="825.78" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1982.84" ytl="847.98" xbr="2029.10" ybr="895.47" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1937.55" ytl="888.17" xbr="1995.39" ybr="949.20" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="523.01" ytl="865.74" xbr="651.15" ybr="1015.77" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="500.56" ytl="743.77" xbr="605.22" ybr="849.92" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="307.70" ytl="743.77" xbr="434.26" ybr="860.64" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="626.66" ytl="889.73" xbr="741.48" ybr="1021.90" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="images/9.png" width="1600" height="1200">
+    <box label="strawberry" source="manual" occluded="0" xtl="731.59" ytl="633.82" xbr="1023.70" ybr="964.51" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="841.40" ytl="546.69" xbr="1019.80" ybr="744.95" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="988.37" ytl="553.58" xbr="1153.72" ybr="790.11" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="1166.27" ytl="497.90" xbr="1425.84" ybr="762.02" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1357.64" ytl="602.03" xbr="1568.99" ybr="917.41" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="1208.45" ytl="713.03" xbr="1386.04" ybr="922.00" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="126.12" ytl="207.98" xbr="277.09" ybr="431.25" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="0" xtl="136.68" ytl="555.56" xbr="416.67" ybr="900.57" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="261.24" ytl="523.59" xbr="490.52" ybr="805.78" z_order="0">
+    </box>
+    <box label="strawberry" source="manual" occluded="1" xtl="193.65" ytl="719.61" xbr="443.20" ybr="959.97" z_order="0">
+    </box>
+  </image>
+</annotations>
+
