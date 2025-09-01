@@ -2,18 +2,18 @@ import os
 import shutil
 import random
 import xml.etree.ElementTree as ET
+from typing import List, Tuple
 
-def parse_annotations(xml_path):
+def parse_annotations(xml_path: str) -> List[Tuple[str, List[Tuple[float, float, float, float]]]]:
     tree = ET.parse(xml_path)
     root = tree.getroot()
-    data = []
+    data: List[Tuple[str, List[Tuple[float, float, float, float]]]] = []
     for image in root.findall('image'):
-        img_id = image.get('id')
         name_attr = image.get('name')
         if name_attr is None:
             raise ValueError(f"Image element missing 'name' attribute: {ET.tostring(image)}")
         img_name = name_attr.split('/')[-1]
-        boxes = []
+        boxes: List[Tuple[float, float, float, float]] = []
         for box in image.findall('box'):
             attrs = box.attrib
             xtl = float(attrs['xtl'])
@@ -25,7 +25,7 @@ def parse_annotations(xml_path):
         data.append((img_name, boxes))
     return data
 
-def convert_to_yolo_format(box, img_w, img_h):
+def convert_to_yolo_format(box: Tuple[float, float, float, float], img_w: int, img_h: int) -> str:
     xtl, ytl, xbr, ybr = box
     x_center = ((xtl + xbr) / 2) / img_w
     y_center = ((ytl + ybr) / 2) / img_h
@@ -33,7 +33,7 @@ def convert_to_yolo_format(box, img_w, img_h):
     height = (ybr - ytl) / img_h
     return f"0 {x_center:.6f} {y_center:.6f} {width:.6f} {height:.6f}"
 
-def split_and_prepare(xml_path, images_dir, output_dir, train_ratio=0.8, seed=42):
+def split_and_prepare(xml_path: str, images_dir: str, output_dir: str, train_ratio: float = 0.8, seed: int = 42) -> None:
     data = parse_annotations(xml_path)
     random.Random(seed).shuffle(data)
     split = int(len(data) * train_ratio)
@@ -51,16 +51,22 @@ def split_and_prepare(xml_path, images_dir, output_dir, train_ratio=0.8, seed=42
             shutil.copy(os.path.join(images_dir, img_name), img_out)
             # open image to get size
             import cv2
-            img = cv2.imread(os.path.join(images_dir, img_name))
+            img_path = os.path.join(images_dir, img_name)
+            img = cv2.imread(img_path)
+            if img is None:
+                raise FileNotFoundError(f"Failed to read image: {img_path}")
             h, w = img.shape[:2]
             # write yolo file
-            txt_path = os.path.join(lbl_out, img_name.replace('.png', '.txt'))
+            root_name, _ = os.path.splitext(img_name)
+            txt_path = os.path.join(lbl_out, f"{root_name}.txt")
             with open(txt_path, 'w') as f:
                 for box in boxes:
                     line = convert_to_yolo_format(box, w, h)
                     f.write(line + '\n')
     # write data.yaml
-    yaml = f"train: images/train\n"
+    abs_root = os.path.abspath(output_dir)
+    yaml = f"path: {abs_root}\n"
+    yaml += f"train: images/train\n"
     yaml += f"val: images/val\n"
     yaml += f"nc: 1\n"
     yaml += "names: ['strawberry']\n"

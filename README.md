@@ -1,8 +1,7 @@
 # Ripe Strawberry Detector
 
-Detect and count ripe strawberries in images using three approaches:
+Detect and count ripe strawberries in images using two approaches:
 - **Template Matching (OpenCV)**
-- **Color Segmentation (Classic Image Processing)**
 - **Fine-tuned YOLOv11 (Deep Learning)**
 
 ## Quickstart
@@ -25,8 +24,8 @@ Detect and count ripe strawberries in images using three approaches:
    - Place images and annotations in the dataset folder as described below.
 
 4. **Run the notebook**
-   - Open notebook_demo.ipynb in VS Code or Jupyter.
-   - Run all cells to see the full pipeline: data prep, baseline, color segmentation, YOLO training, and evaluation.
+   - Open `yolo11s_demo.ipynb` in VS Code or Jupyter.
+   - Run all cells to see the pipeline: data prep, baseline, YOLO training, and evaluation.
 
 5. **Run the Streamlit App**
    - Launch the interactive web UI for strawberry detection:
@@ -34,6 +33,7 @@ Detect and count ripe strawberries in images using three approaches:
      streamlit run streamlit_ui.py
      ```
    - Upload an image and select the model (pretrained or finetuned YOLO) to detect and count strawberries with bounding boxes.
+   - Note: the generic pretrained model does not include a "strawberry" class; use your finetuned weights for counting.
 
 ---
 
@@ -47,14 +47,13 @@ output/
   ...               # Results, predictions, and plots
 src/
   baseline.py       # Template matching logic
-  color_segmentation.py # Color segmentation logic
   train_and_infer.py    # YOLO training/inference
   yolo_utils.py     # Data prep utilities
 strawberry_dataset/ # YOLO-formatted dataset (auto-generated)
 template/
   template.png      # Template image for baseline
 requirements.txt
-notebook_demo.ipynb
+yolo11s_demo.ipynb
 ```
 
 ---
@@ -66,12 +65,7 @@ notebook_demo.ipynb
 - Sensitive to scale, rotation, and lighting.
 - Usage: Crops a template from the dataset and matches it across images.
 
-### 2. Color Segmentation (Classic Image Processing)
-- Segments ripe strawberries by color in HSV space.
-- Uses contour detection to count objects.
-- No training required, but may need color threshold tuning.
-
-### 3. Fine-tuned YOLOv11 (Deep Learning)
+### 2. Fine-tuned YOLOv11 (Deep Learning)
 - Trains a YOLOv11 model on your labeled strawberry dataset.
 - Robust to scale, rotation, and lighting.
 - Requires labeled data and training time.
@@ -88,7 +82,7 @@ notebook_demo.ipynb
    - The notebook will split and convert the dataset to YOLO format automatically.
 
 3. **Run All Algorithms**
-   - The notebook runs all three methods on a sample image and compares results.
+   - The notebook runs the baseline and YOLO on a sample image and compares results.
    - Training YOLO may take time (GPU recommended).
 
 4. **Results**
@@ -100,7 +94,6 @@ notebook_demo.ipynb
 ## Customization
 
 - **Change the sample image:** Edit the `SAMPLE_IMAGE_NAME` variable in the notebook.
-- **Tune color segmentation:** Adjust HSV thresholds in `src/color_segmentation.py` for your lighting conditions.
 - **Train longer:** Increase the `epochs` parameter in the YOLO training cell for better accuracy.
 
 ---
@@ -116,7 +109,8 @@ notebook_demo.ipynb
 
 - **No detections?** Check your dataset paths and annotation format.
 - **YOLO training slow?** Use a machine with a CUDA-compatible GPU.
-- **Color segmentation inaccurate?** Adjust the HSV color range in `color_segmentation.py`.
+- **Pretrained model counts 0?** It likely does not include a "strawberry" class. Use finetuned weights.
+- **Video UI?** Out of scope for this project version.
 
 ---
 

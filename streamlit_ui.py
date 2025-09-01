@@ -4,11 +4,19 @@ import sys
 import cv2
 import numpy as np
 import tempfile
+import torch
 
 from ultralytics import YOLO
 
 # Add src directory to path to import our custom modules
 sys.path.append(os.path.abspath('src'))
+
+st.set_page_config(layout="wide")
+
+device_options = ['cpu']
+if torch.cuda.is_available():
+    device_options.append('cuda:0')
+device_choice = st.selectbox('Compute device', device_options)
 
 # --- Model selection UI ---
 MODEL_OPTIONS = {
@@ -18,6 +26,12 @@ MODEL_OPTIONS = {
 model_choice = st.selectbox('Select YOLO model', list(MODEL_OPTIONS.keys()))
 MODEL_PATH = MODEL_OPTIONS[model_choice]
 
+if model_choice == 'Finetuned YOLO':
+    MODEL_PATH = os.path.abspath(MODEL_PATH)
+    if not os.path.exists(MODEL_PATH):
+        st.error(f"Finetuned weights not found at: {MODEL_PATH}. Run 'yolo11s_demo.ipynb' to train the model or place your best.pt there.")
+        st.stop()
+
 # Load model
 model = YOLO(MODEL_PATH)
 
@@ -25,7 +39,6 @@ model = YOLO(MODEL_PATH)
 straw_id = next((cid for cid, name in model.names.items() if name.lower() == 'strawberry'), None)
 
 st.title('Strawberry Detector')
-st.set_page_config(layout="wide")
 # File uploader for images
 uploaded_file = st.file_uploader('Upload an image', type=['png', 'jpg', 'jpeg'])
 
@@ -49,14 +62,17 @@ if run:
             tmp_file.close()
 
             # Run YOLO inference
-            results = model.predict(source=tmp_file.name, conf=conf, save=False, device='cpu')
+            results = model.predict(source=tmp_file.name, conf=conf, save=False, device=device_choice)
             os.remove(tmp_file.name)
 
             # Extract detections
             boxes = results[0].boxes.xyxy.cpu().numpy()
             classes = results[0].boxes.cls.cpu().numpy().astype(int)
-            # Filter strawberry boxes and count
-            straw_boxes = [box for box, cls in zip(boxes, classes) if cls == straw_id] if straw_id is not None else boxes.tolist()
+            if straw_id is None:
+                st.warning("Selected model does not include a 'strawberry' class. Use 'Finetuned YOLO' to get counts.")
+                straw_boxes = []
+            else:
+                straw_boxes = [box for box, cls in zip(boxes, classes) if cls == straw_id]
             count = len(straw_boxes)
             # Draw and label each strawberry detection
             for idx, box in enumerate(straw_boxes, start=1):

@@ -180,8 +180,4 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-dataset
-output
-template
-strawberry_dataset
 *.pt

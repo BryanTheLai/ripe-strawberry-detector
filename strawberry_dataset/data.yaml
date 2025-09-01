@@ -1,0 +1,5 @@
+path: C:\Users\wbrya\OneDrive\Documents\GitHub\ripe-strawberry-detector\strawberry_dataset
+train: images/train
+val: images/val
+nc: 1
+names: ['strawberry']
