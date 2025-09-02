@@ -8,3 +8,4 @@ scikit-learn==1.7.0
 streamlit==1.46.1
 torch>=2.2.0
 torchvision>=0.17.0
+gradio==5.44.1
