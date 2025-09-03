@@ -320,11 +320,9 @@ uploaded = st.file_uploader("Upload a JPG/PNG", type=["jpg", "jpeg", "png"])
 if uploaded is not None:
     pil = Image.open(uploaded).convert("RGB")
 
-    # Show original preview above left column (kept compact)
+    # Show preview (make it larger / full width). Run Detection button sits under the preview area
     st.markdown("---")
-    # Run detection button sits under the preview area
-    col_preview = st.columns([1, 2])[0]
-    col_preview.image(pil, use_container_width=True)
+    st.image(pil, use_container_width=True)
 
     if st.button("Run Detection"):
         t0 = time.time()
@@ -360,18 +358,22 @@ if uploaded is not None:
             dt = time.time() - t0
             count = 0 if boxes.size == 0 else len(boxes)
 
-            # Show detection stats as a small caption above the image row (keeps images aligned)
-            st.caption(f"Detections: {count}  •  thr={thr:.2f}, nms={nms:.2f}, max_det={max_det}  —  Runtime: {dt:.2f}s on {DEVICE.type.upper()}")
+            # Show detection stats in a more prominent way
+            st.markdown("### 🔍 Detection Results")
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                st.metric("Detections Found", count)
+            with col2:
+                st.metric("Runtime", f"{dt:.2f}s")
+            with col3:
+                st.metric("Device", DEVICE.type.upper())
+            
+            # Additional parameters in an info box
+            st.info(f"**Parameters:** Confidence threshold: {thr:.2f} • NMS IoU: {nms:.2f} • Max detections: {max_det}")
 
-            # Headings for the image columns
-            h1, h2 = st.columns(2)
-            h1.markdown("**Original**")
-            h2.markdown("**Detection**")
-
-            # Show images in matched columns so they align
-            col_l, col_r = st.columns(2)
-            col_l.image(pil, use_container_width=True)
-            col_r.image(vis, use_container_width=True)
+            # Only show the detection image (take full width). We no longer display the original alongside it.
+            st.markdown("### Detection")
+            st.image(vis, use_container_width=True)
 
             # Download annotated image
             buf = io.BytesIO()
