@@ -1,9 +1,5 @@
 # Ripe Strawberry Detector
 
-Detect and count ripe strawberries in images using two approaches:
-- **Template Matching (OpenCV)**
-- **Fine-tuned YOLOv11 (Deep Learning)**
-
 ## Quickstart
 
 1. **Clone the repository**
@@ -19,11 +15,11 @@ Detect and count ripe strawberries in images using two approaches:
    pip install -r requirements.txt
    ```
 
-3. **Download the dataset**
+3. **Download the dataset** (This part can be skipped.)
    - [Strawberries Dataset (Kaggle)](https://www.kaggle.com/datasets/trainingdatapro/ripe-strawberries-detection)
    - Place images and annotations in the dataset folder as described below.
 
-4. **Run the notebooks**
+4. **Run the notebooks** (This part can be skipped.)
 
 5. **Run the Streamlit App**
    - Launch the interactive web UI for strawberry detection:
@@ -73,23 +69,6 @@ yolo11n.pt                   # YOLOv11n weights
 yolo11s.pt                   # YOLOv11s weights
 ```
 
-## How to Use
-
-1. **Prepare the Dataset**
-   - Place all images in images.
-   - Place the annotation XML in annotations.xml.
-
-2. **Run Data Preparation**
-   - The notebook will split and convert the dataset to YOLO format automatically.
-
-3. **Run All Algorithms**
-   - The notebook runs the baseline and YOLO on a sample image and compares results.
-   - Training YOLO may take time (GPU recommended).
-
-4. **Results**
-   - Output images and detection counts are saved in the output directory.
-   - Visual and numerical comparisons are shown in the notebook.
-
 ---
 
 ## Requirements
@@ -107,11 +86,6 @@ yolo11s.pt                   # YOLOv11s weights
 
 ---
 
-## License
-
-MIT License.
-
----
 
 ## Acknowledgments
 
