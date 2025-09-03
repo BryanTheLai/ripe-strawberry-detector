@@ -23,17 +23,13 @@ Detect and count ripe strawberries in images using two approaches:
    - [Strawberries Dataset (Kaggle)](https://www.kaggle.com/datasets/trainingdatapro/ripe-strawberries-detection)
    - Place images and annotations in the dataset folder as described below.
 
-4. **Run the notebook**
-   - Open `yolo11s_demo.ipynb` in VS Code or Jupyter.
-   - Run all cells to see the pipeline: data prep, baseline, YOLO training, and evaluation.
+4. **Run the notebooks**
 
 5. **Run the Streamlit App**
    - Launch the interactive web UI for strawberry detection:
      ```sh
-     streamlit run streamlit_ui.py
+     streamlit run streamlit_complete_ui.py
      ```
-   - Upload an image and select the model (pretrained or finetuned YOLO) to detect and count strawberries with bounding boxes.
-   - Note: the generic pretrained model does not include a "strawberry" class; use your finetuned weights for counting.
 
 ---
 
@@ -41,36 +37,41 @@ Detect and count ripe strawberries in images using two approaches:
 
 ```
 dataset/
-  images/           # Raw images
-  annotations.xml   # Original annotation file
+   images/             # Raw images
+   boxes/              # Cropped strawberry boxes
+   annotations.xml     # Original annotation file
+   strawberries.csv    # CSV annotation (optional)
 output/
-  ...               # Results, predictions, and plots
+   baseline_sample.jpg # Example output
+   report_metrics.md   # Metrics report
+   baseline_eval/      # Baseline predictions
+   finetuned_preds/    # Finetuned YOLO predictions
+   pretrained_preds/   # Pretrained YOLO predictions
+   train/              # YOLO training outputs
+   val/                # YOLO validation outputs
 src/
-  baseline.py       # Template matching logic
-  train_and_infer.py    # YOLO training/inference
-  yolo_utils.py     # Data prep utilities
-strawberry_dataset/ # YOLO-formatted dataset (auto-generated)
+   baseline.py         # Template matching logic
+   train_and_infer.py  # YOLO training/inference
+   yolo_utils.py       # Data prep utilities
+models_for_streamlit/
+   yolo_ft_best.pt     # Finetuned YOLO weights
+   yolo11s.pt          # Pretrained YOLO weights
+   retinanet_best.pt   # RetinaNet weights
+   best_ssd300_vgg16_model.pth # SSD weights
+strawberry_dataset/   # YOLO-formatted dataset (auto-generated)
 template/
-  template.png      # Template image for baseline
+   template.png        # Template image for baseline
+scripts/
+   generate_report_metrics.py # Script for metrics
 requirements.txt
-yolo11s_demo.ipynb
+streamlit_complete_ui.py     # Streamlit app
+1_data_prep.ipynb            # Data prep notebook
+2_bryan_part.ipynb           # Bryan's notebook
+3_weilet_retina_net.ipynb    # RetinaNet notebook
+4_tze_hong_ssd.ipynb         # SSD notebook
+yolo11n.pt                   # YOLOv11n weights
+yolo11s.pt                   # YOLOv11s weights
 ```
-
----
-
-## Algorithms
-
-### 1. Baseline: Template Matching (OpenCV)
-- Fast, no training required.
-- Sensitive to scale, rotation, and lighting.
-- Usage: Crops a template from the dataset and matches it across images.
-
-### 2. Fine-tuned YOLOv11 (Deep Learning)
-- Trains a YOLOv11 model on your labeled strawberry dataset.
-- Robust to scale, rotation, and lighting.
-- Requires labeled data and training time.
-
----
 
 ## How to Use
 
@@ -91,13 +92,6 @@ yolo11s_demo.ipynb
 
 ---
 
-## Customization
-
-- **Change the sample image:** Edit the `SAMPLE_IMAGE_NAME` variable in the notebook.
-- **Train longer:** Increase the `epochs` parameter in the YOLO training cell for better accuracy.
-
----
-
 ## Requirements
 
 - Python 3.10+
@@ -110,7 +104,6 @@ yolo11s_demo.ipynb
 - **No detections?** Check your dataset paths and annotation format.
 - **YOLO training slow?** Use a machine with a CUDA-compatible GPU.
 - **Pretrained model counts 0?** It likely does not include a "strawberry" class. Use finetuned weights.
-- **Video UI?** Out of scope for this project version.
 
 ---
 
@@ -124,7 +117,3 @@ MIT License.
 
 - [Kaggle: Ripe Strawberries Detection Dataset](https://www.kaggle.com/datasets/trainingdatapro/ripe-strawberries-detection)
 - [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
-
----
-
-This README is ready for future updates, including count extraction and additional algorithms. Let me know when you want to add those features.
